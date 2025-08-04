@@ -2,6 +2,7 @@
 
 # Essential for OpenShift - tell Streamlit to listen on port 8080
 streamlit run adhoc_form2.py --server.port 8080 \
+			     --server.address 0.0.0.0 \
                              --server.enableCORS false \
                              --server.enableXsrfProtection false \
                              --browser.serverAddress 0.0.0.0
